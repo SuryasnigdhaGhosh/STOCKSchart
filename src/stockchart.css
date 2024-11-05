@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+.chart-container {
+    margin: 0 70px 150px;
+    display: flex;
+    color: beige;
+    align-items: center;
+    gap: 70px;
+  
+  }
+  
+  .chart {
+    flex: 1.5;
+    background-color: rgba(61, 9, 109, 0.13);
+    padding: 20px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  .description {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.092);
+    border-radius: 30px;
+    padding: 20px;
+    color: beige;
+
+}
+
+.description P {
+    color: rgb(171, 170, 170);
+    font-family: 'Mulish', sans-serif;
+}
+
+.description h2,
+.description h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+  @media only screen and (max-width: 600px) {
+  
+    .chart-container {
+        margin: 0 30px 150px;
+  
+        display: flex;
+        flex-direction: column;
+  
+  
+    }
+  
+  }
